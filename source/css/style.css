@@ -1,0 +1,181 @@
+* { box-sizing: border-box; }
+
+body {
+    background: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.flex-container {
+    background: #ddd;
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 1px 0;
+}
+
+.flex-element {
+    margin: 9px 10px;
+    padding: 10px 15px;
+    font-size: 2em;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .75);
+}
+
+.box1 {
+    background: #456ad1;
+}
+.box2 {
+    background: #b752d8;
+}
+.box3 {
+    background: #7c2747;
+}
+.box4 {
+    background: #a4b239;
+}
+.box5 {
+    background: #bf873f;
+}
+.box6 {
+    background: #328c3e;
+}
+
+/* FLEX UTILITIES */
+
+/* display */
+.d-flex {
+    display: flex;
+}
+
+/* dircetion */
+.flex-row {
+    flex-direction: row;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* justify */
+.justify-content-start {
+    justify-content: flex-start;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+
+/* align-items */
+.align-items-start {
+    align-items: flex-start;
+}
+.align-items-end {
+    align-items: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-baseline {
+    align-items: baseline;
+}
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* align-content */
+.align-content-start {
+    align-content: flex-start;
+}
+.align-content-end {
+    align-content: flex-end;
+}
+.align-content-center {
+    align-content: center;
+}
+.align-content-between {
+    align-content: space-between;
+}
+.align-content-around {
+    align-content: space-around;
+}
+
+/* align-self */
+.align-self-start {
+    align-self: flex-start;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+.align-self-center {
+    align-self: center;
+}
+.align-self-baseline {
+    align-self: baseline;
+}
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* order */
+.order-1 {
+    order: 1;
+}
+.order-2 {
+    order: 2;
+}
+.order-3 {
+    order: 3;
+}
+.order-4 {
+    order: 4;
+}
+.order-5 {
+    order: 5;
+}
+.order-6 {
+    order: 6;
+}
+.order-7 {
+    order: 7;
+}
+.order-8 {
+    order: 8;
+}
+.order-9 {
+    order: 9;
+}
+.order-10 {
+    order: 10;
+}
+.order-11 {
+    order: 11;
+}
+.order-12 {
+    order: 12;
+}
